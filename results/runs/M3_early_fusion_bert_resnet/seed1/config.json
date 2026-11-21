@@ -1,0 +1,21 @@
+{
+  "modality": "both",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "text_model": "bert-base-uncased",
+  "epochs": 5,
+  "batch": 16,
+  "max_len": 64,
+  "lr_text": 2e-05,
+  "lr_image": 0.0001,
+  "lr_head": 0.001,
+  "workers": 2,
+  "img_root": "/content/repo/data/hateful_memes",
+  "run_name": "M3_early_fusion_bert_resnet",
+  "save_model": false,
+  "seed": 1,
+  "best_val_auroc": 0.6693443855915252
+}

@@ -1,0 +1,5 @@
+split,n,hateful_%,mean_words,max_words
+train,8500,35.5,11.7,70
+val,500,49.4,10.2,42
+test,1000,49.0,10.4,57
+test_unseen,2000,37.5,9.0,47
