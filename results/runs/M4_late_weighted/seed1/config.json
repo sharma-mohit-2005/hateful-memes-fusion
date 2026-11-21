@@ -1,0 +1,5 @@
+{
+  "text_run": "M1_bert_text",
+  "image_run": "M2_resnet_image",
+  "w_text": 0.9500000000000001
+}

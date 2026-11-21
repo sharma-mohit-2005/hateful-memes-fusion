@@ -1,0 +1,21 @@
+{
+  "modality": "image",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "text_model": "bert-base-uncased",
+  "epochs": 6,
+  "batch": 32,
+  "max_len": 64,
+  "lr_text": 2e-05,
+  "lr_image": 0.0001,
+  "lr_head": 0.001,
+  "workers": 2,
+  "img_root": "/content/repo/data/hateful_memes",
+  "run_name": "M2_resnet_image",
+  "save_model": false,
+  "seed": 2,
+  "best_val_auroc": 0.531780576403002
+}
