@@ -1,0 +1,21 @@
+{
+  "modality": "text",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "text_model": "bert-base-uncased",
+  "epochs": 4,
+  "batch": 32,
+  "max_len": 64,
+  "lr_text": 2e-05,
+  "lr_image": 0.0001,
+  "lr_head": 0.001,
+  "workers": 2,
+  "img_root": "/content/repo/data/hateful_memes",
+  "run_name": "M1_bert_text",
+  "save_model": false,
+  "seed": 1,
+  "best_val_auroc": 0.6484613784384952
+}
