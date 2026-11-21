@@ -1,6 +1,9 @@
 # Multimodal Hateful Meme Detection: Does Fusion Beat Unimodal?
 
 Deep Learning course project (Sem 5, Sitare University).
+
+**Report:** [`report/Report.pdf`](report/Report.pdf) (LaTeX source: [`report/main.tex`](report/main.tex))
+
 We classify memes from the **Hateful Memes Challenge** (Kiela et al., NeurIPS 2020) as hateful or not. The dataset is
 built with *benign confounders*: the same caption on a different image, or the same image with a different caption,
 flips the label. Because of that, a model has to understand image and text **together** to get these memes right.
