@@ -1,0 +1,25 @@
+{
+  "fusion": "concat",
+  "features": "clip_l14_inpainted",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "epochs": 40,
+  "patience": 8,
+  "batch": 64,
+  "lr": 0.0001,
+  "wd": 0.01,
+  "proj_dim": 512,
+  "cross_dim": 64,
+  "hidden": 512,
+  "dropout": 0.3,
+  "modality_dropout": 0.0,
+  "run_name": "C_clip_l14_inpainted_concat",
+  "seed": 0,
+  "in_dim": 768,
+  "best_val_auroc": 0.7860171864748524,
+  "stopped_epoch": 38,
+  "n_params": 1314817
+}
