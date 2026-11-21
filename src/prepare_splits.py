@@ -99,6 +99,12 @@ def main():
         # Keep the needed columns, drop rows with a repeated id (the same meme listed twice),
         # and renumber rows 0..N-1 (drop=True discards the old index instead of adding it as a column).
         df = df[cols].drop_duplicates("id").reset_index(drop=True)
+        # Safety net: skip memes whose image file is not on disk (e.g. an incomplete download), so that
+        # training never crashes with FileNotFoundError. After a complete download nothing is skipped.
+        has_img = df["img"].map(lambda p: (RAW_DIR / p).exists())
+        if not has_img.all():
+            print(f"{name}: skipping {(~has_img).sum()} memes whose image is missing - re-run download_data.py")
+            df = df[has_img].reset_index(drop=True)
         # Make sure labels are plain integers 0/1 (they might be read as float).
         df["label"] = df["label"].astype(int)
         # Write as JSON Lines: orient="records" + lines=True -> one {"id":..,"img":..,...} per line.
