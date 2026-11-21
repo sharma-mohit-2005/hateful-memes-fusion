@@ -1,25 +1,25 @@
 id,img,text,label,prob,error,kind,category
-56908,img/56908.png,"""life is like a box of chocolates."" it sucks if you have diabetes",1,7.932757666666667e-06,0.9999920672423334,false_negative,image_text_interaction
+56908,img/56908.png,"""life is like a box of chocolates."" it sucks if you have diabetes",1,7.932757666666667e-06,0.9999920672423334,false_negative,other
 64735,img/64735.png,this movie sucks i am thinking of another shooting,1,1.5071044e-05,0.999984928956,false_negative,world_knowledge
 78206,img/78206.png,authentic lunch in venezuela,1,2.7604116333333332e-05,0.9999723958836667,false_negative,world_knowledge
 27496,img/27496.png,"personal stylist $15,000 / week makeup artist $4,000 / month makeup artist $4,000 / month i can't tell the difference",1,4.8250078e-05,0.999951749922,false_negative,image_text_interaction
 07193,img/07193.png,things i love to hunt,1,5.563053133333333e-05,0.9999443694686667,false_negative,image_text_interaction
-07291,img/07291.png,it's a piece of cake if she's not awake,1,8.7574606e-05,0.999912425394,false_negative,sarcasm_irony
+07291,img/07291.png,it's a piece of cake if she's not awake,1,8.7574606e-05,0.999912425394,false_negative,world_knowledge
 20781,img/20781.png,you'll never be lonely@ goatsonly.com,1,0.00015243247616666665,0.9998475675238333,false_negative,image_text_interaction
 92783,img/92783.png,what's better than winning a gold medal in this contest walking,1,0.00016332098533333335,0.9998366790146667,false_negative,image_text_interaction
 52401,img/52401.png,"slutty girls are like walmarts everybody makes fun of them but, when you're inside one at 4am you think ""i'm glad these are here""",1,0.00024700489866666663,0.9997529951013333,false_negative,slur_or_keyword
 92456,img/92456.png,vanish shampoo,1,0.0003576479033333333,0.9996423520966666,false_negative,image_text_interaction
 92015,img/92015.png,good guy police officer capturing them young,1,0.0005263274133333334,0.9994736725866666,false_negative,image_text_interaction
 57890,img/57890.png,he enemy within ilhan omar linda sarsour ocasio-corte tlaib rashida the trojan horse is no longer at the gates,1,0.0005794925533333333,0.9994205074466667,false_negative,world_knowledge
-26910,img/26910.png,"""they are the biggest terrorists in the history of the world. we have entire history of books showing this data""",1,0.0007789546466666666,0.9992210453533333,false_negative,image_text_interaction
+26910,img/26910.png,"""they are the biggest terrorists in the history of the world. we have entire history of books showing this data""",1,0.0007789546466666666,0.9992210453533333,false_negative,world_knowledge
 17096,img/17096.png,there use to be a pet shelter here,1,0.0007852165366666665,0.9992147834633334,false_negative,image_text_interaction
 31627,img/31627.png,a fire cracker,1,0.0009458266333333335,0.9990541733666667,false_negative,image_text_interaction
 59031,img/59031.png,how to get stoned without smoking weed,1,0.0010082695466666666,0.9989917304533333,false_negative,world_knowledge
 10234,img/10234.png,when you've decided to start a life of crime,1,0.0010376211733333334,0.9989623788266667,false_negative,image_text_interaction
-31875,img/31875.png,i went on a date blind date,1,0.00115029015,0.99884970985,false_negative,image_text_interaction
-31569,img/31569.png,why don't they eat pussy? because it's too close to the gas chamber,0,0.9987556400000001,0.9987556400000001,false_positive,label_noise
-31470,img/31470.png,they were mentally ill. i had to cure them,1,0.0012479756866666666,0.9987520243133333,false_negative,world_knowledge
-49176,img/49176.png,"if fear of divine judgement is the only thing keeping you ""moral"" at best, you're just a dangerous psychopath on a leash",1,0.00136662711,0.99863337289,false_negative,image_text_interaction
+31875,img/31875.png,i went on a date blind date,1,0.00115029015,0.99884970985,false_negative,world_knowledge
+31569,img/31569.png,why don't they eat pussy? because it's too close to the gas chamber,0,0.9987556400000001,0.9987556400000001,false_positive,slur_or_keyword
+31470,img/31470.png,they were mentally ill. i had to cure them,1,0.0012479756866666666,0.9987520243133333,false_negative,image_text_interaction
+49176,img/49176.png,"if fear of divine judgement is the only thing keeping you ""moral"" at best, you're just a dangerous psychopath on a leash",1,0.00136662711,0.99863337289,false_negative,label_noise
 80713,img/80713.png,rare picture of child birth,1,0.0014619026666666667,0.9985380973333333,false_negative,
 17546,img/17546.png,"the face you make when you don't understand what ""stop resisting"" means",1,0.0015287039333333333,0.9984712960666666,false_negative,
 95072,img/95072.png,this guy just friended and unfriended me 45 times in 15 seconds anyone know him??,1,0.0018733551,0.9981266449,false_negative,
@@ -36,12 +36,12 @@ id,img,text,label,prob,error,kind,category
 92837,img/92837.png,"we dipped this shit in bacon grease mixed with bacon juice smothered in hate when it is time, rest assured america. when the enemy brings it to our soil, we will bring it to them",1,0.004144533166666666,0.9958554668333334,false_negative,
 28196,img/28196.png,"the woman you met who admits she's wrong, apologizes and changes her ways",1,0.004408692666666667,0.9955913073333333,false_negative,
 15473,img/15473.png,i wish i could stand by you!,1,0.0047120010666666665,0.9952879989333333,false_negative,
-63719,img/63719.png,hey grandma what are you doing ? im sewing a scarf for your trans brother ajay,0,0.9951411499999999,0.9951411499999999,false_positive,label_noise
+63719,img/63719.png,hey grandma what are you doing ? im sewing a scarf for your trans brother ajay,0,0.9951411499999999,0.9951411499999999,false_positive,slur_or_keyword
 53942,img/53942.png,"they are like manure spread them out and they help everything grow better, but keep them in one big pile and they stink horribly",1,0.006938909333333333,0.9930610906666667,false_negative,
 24351,img/24351.png,this story touched my heart twins separated at birth find eachother after 50 yrs,1,0.0074043799999999995,0.99259562,false_negative,
 67350,img/67350.png,turn your dishwasher into a snow remover,1,0.0087315038,0.9912684962,false_negative,
 80246,img/80246.png,car salesman roof of car,1,0.0092795009,0.9907204991,false_negative,
-74265,img/74265.png,"it's taekwondo, not taekwondon't",0,0.9906071000000001,0.9906071000000001,false_positive,other
+74265,img/74265.png,"it's taekwondo, not taekwondon't",0,0.9906071000000001,0.9906071000000001,false_positive,label_noise
 96345,img/96345.png,"these atheist fools what do you mean ""evidence""? i gave you the bible verse """,1,0.0098890618,0.9901109382,false_negative,
 05968,img/05968.png,what would you do if i got pregnant,1,0.010669924333333332,0.9893300756666666,false_negative,
 72419,img/72419.png,"""nice watch must have cost an arm and a leg""",1,0.010759931066666666,0.9892400689333334,false_negative,
@@ -58,7 +58,7 @@ id,img,text,label,prob,error,kind,category
 57312,img/57312.png,porn casting or terrorist recruitment? -yes i can blow,0,0.9838522933333333,0.9838522933333333,false_positive,slur_or_keyword
 16529,img/16529.png,my dog loves the attention,1,0.01712206466666667,0.9828779353333333,false_negative,
 15079,img/15079.png,made rice krispies way before kelloggs,1,0.0171245719,0.9828754281,false_negative,
-51628,img/51628.png,welcome to europe our government told us that and we should adopt their culture diversity makes us stronger,0,0.9828360133333334,0.9828360133333334,false_positive,sarcasm_irony
+51628,img/51628.png,welcome to europe our government told us that and we should adopt their culture diversity makes us stronger,0,0.9828360133333334,0.9828360133333334,false_positive,label_noise
 28579,img/28579.png,michele obama holding a fundraising for studying animal intelligence,0,0.97895488,0.97895488,false_positive,label_noise
 56184,img/56184.png,go home stoned eyes give nothing away,1,0.02135126816666667,0.9786487318333333,false_negative,
 23897,img/23897.png,all was well in new york until the fire nation attacked,1,0.021412948799999998,0.9785870512,false_negative,
@@ -84,7 +84,7 @@ id,img,text,label,prob,error,kind,category
 59671,img/59671.png,have you tried their food? neither have they,1,0.042916756,0.957083244,false_negative,
 89140,img/89140.png,burning things that don't mean anything to you,1,0.04305673833333334,0.9569432616666667,false_negative,
 15306,img/15306.png,i hate snow it's white and on my land,1,0.043299414333333335,0.9567005856666667,false_negative,
-70456,img/70456.png,jewish children today should remember how lucky they are today,0,0.9559343133333332,0.9559343133333332,false_positive,image_text_interaction
+70456,img/70456.png,jewish children today should remember how lucky they are today,0,0.9559343133333332,0.9559343133333332,false_positive,label_noise
 69823,img/69823.png,what do you call a group of stoned mexicans? baked beans,1,0.04463788966666666,0.9553621103333333,false_negative,
 35796,img/35796.png,i hate it when white people throw gang signs thinking they're black and shit,0,0.9523745400000001,0.9523745400000001,false_positive,slur_or_keyword
 18750,img/18750.png,turn for what,1,0.047946276333333336,0.9520537236666666,false_negative,
@@ -92,7 +92,7 @@ id,img,text,label,prob,error,kind,category
 46810,img/46810.png,"""great at making martinis terrible at stealing tambourines""",1,0.053319553966666676,0.9466804460333333,false_negative,
 27180,img/27180.png,inbred you are cat piss you smell like,0,0.9463451333333334,0.9463451333333334,false_positive,slur_or_keyword
 13870,img/13870.png,if james brown and the creature from the black lagoon had a baby,0,0.9459450666666666,0.9459450666666666,false_positive,label_noise
-40316,img/40316.png,when dishwasher stops working take it back,0,0.9439900166666666,0.9439900166666666,false_positive,image_text_interaction
+40316,img/40316.png,when dishwasher stops working take it back,0,0.9439900166666666,0.9439900166666666,false_positive,label_noise
 39405,img/39405.png,"you call that a killing, ahmed? this is a killing!",0,0.9431374666666666,0.9431374666666666,false_positive,
 15438,img/15438.png,real muslims radical muslims,0,0.9406397033333334,0.9406397033333334,false_positive,
 34291,img/34291.png,"if they aren't lazy, then why doesn't kfc have a breakfast menu",1,0.060458458,0.939541542,false_negative,
