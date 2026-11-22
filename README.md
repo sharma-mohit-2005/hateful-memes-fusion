@@ -2,7 +2,7 @@
 
 Deep Learning course project (Sem 5, Sitare University).
 
-**Report:** [`report/Report.pdf`](report/Report.pdf) (LaTeX source: [`report/main.tex`](report/main.tex))
+**Report:** [`report/Report.pdf`](report/Report.pdf)
 
 We classify memes from the **Hateful Memes Challenge** (Kiela et al., NeurIPS 2020) as hateful or not. The dataset is
 built with *benign confounders*: the same caption on a different image, or the same image with a different caption,
